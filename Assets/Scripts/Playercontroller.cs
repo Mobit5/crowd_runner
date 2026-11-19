@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float forwardSpeed = 6f;
+    public float forwardSpeed = 4f;
     public float sideSpeed = 8f;
     public float trackHalfWidth = 4f;
+    public bool canMove = true; // Çarpışma sırasında false yapılır
 
     void Update()
     {
+        if (!canMove) return; // Durma emri geldiğinde ileri ve yan hareketi tamamen kes
+
         transform.position += Vector3.forward * forwardSpeed * Time.deltaTime;
 
         float x = transform.position.x;

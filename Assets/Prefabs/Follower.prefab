@@ -195,6 +195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1924330416772942832, guid: 5c9d66191f83aab4ba7b904a23bbc804, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b63f2c178307ff844b7279a44123c41d, type: 2}
     - target: {fileID: 919132149155446097, guid: 5c9d66191f83aab4ba7b904a23bbc804, type: 3}
       propertyPath: m_Name
       value: character-male-e
@@ -207,6 +211,10 @@ PrefabInstance:
       propertyPath: m_CullingMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6435320000920075851, guid: 5c9d66191f83aab4ba7b904a23bbc804, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b63f2c178307ff844b7279a44123c41d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
